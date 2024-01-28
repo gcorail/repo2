@@ -46,7 +46,7 @@ Este proyecto fue creado por:
 Cecilia sánchez valenzuela    Cevictoria@gmail.com 
 Andrés Esteban Muñoz Urrutia  andresestebanmu@gmail.com
 Francis Yañez Merino          francisymerino@gmail.com
-Pablo José Oyola Lepe         paoyola.dwfs9@bootcampudd.cl													
+Pablo José Oyola Lepe         poyola@gmail.com											
 
 
 ## Licencia
