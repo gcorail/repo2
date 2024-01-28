@@ -47,10 +47,6 @@ app.delete("/products-cart/:productId", controllers.deleteProduct);
 
 
 app.use(userRouter);
-// app.listen(4000, () => {
-//   console.log("Server funcionando en el puerto 4000");
-//   db();
-// });
 
 // Levantamiento de servidor
 app.listen(process.env.PORT, () => {
