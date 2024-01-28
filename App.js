@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 require('dotenv').config();
 
-// const db = require("./database");
+
 // Traemos la conexion de la abse de dtaos al servidor
 const db=require('./config/database');
 
@@ -71,9 +71,9 @@ app.post("/create_preference", async (req, res) => {
         },
       ],
       back_urls: {
-        success: "https://www.youtube.com/@onthecode",
-        failure: "https://www.youtube.com/@onthecode",
-        pending: "https://www.youtube.com/@onthecode",
+        success: "https://www.mercadopago.cl/developers/es/docs/checkout-api/integration-test/make-test-purchase",
+        failure: "https://www.mercadopago.cl/developers/es/docs/checkout-api/integration-test/make-test-purchase",
+        pending: "https://www.mercadopago.cl/developers/es/docs/checkout-api/integration-test/make-test-purchase",
       },
       auto_return: "approved",
     };
