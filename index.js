@@ -29,7 +29,8 @@ app.use(express.json());
 
 
 /* GET */
-app.get("/products", controllers.getProducts);
+app.get("../products", controllers.getProducts);
+
 app.get("/products-cart", controllers.getProductsCart);
 
 
